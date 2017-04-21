@@ -10,11 +10,12 @@
     e.g. `"/posts/#{@user.id}"`
          `"/photos/:id/edit"`
 
-#### Route Helpers: faster & easier to change if the route destination changes
+#### Route Helpers: faster & easier to fix if the route destination changes
     e.g. `post_path(@user.id)`
          `edit_photo_path(:id)`
 
 ------------------
+
 ### Benefits to using Route Helpers
 
 1. are methods, not strings
@@ -35,6 +36,7 @@
     - characters like spaces, '&', '%', etc. are converted so that browsers can read them 
 
 -----------------
+
 ### In your console... 
 
 - simply enter "rails routes"
