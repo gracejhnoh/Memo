@@ -7,8 +7,8 @@
 -------------------
 
 #### Hard Coded Paths: slow, prone to error, & a lot of work to change
-    e.g. `"/posts/#{@user.id}"`
-         `"/photos/:id/edit"`
+    e.g. `/posts/#{@user.id}`
+         `/photos/:id/edit`
 
 #### Route Helpers: faster & easier to fix if the route destination changes
     e.g. `post_path(@user.id)`
@@ -28,7 +28,7 @@
 3. arguments can be more easily and readily passed in to methods (route helpers), unlike hard coded paths, which require string interpolation
     >    e.g. 
     >    
-    >        `"users/<%= user.id %>?opt_in=true"`
+    >        `users/<%= user.id %>?opt_in=true`
     >
     >        `user_path(user, opt_in: true)`
 
