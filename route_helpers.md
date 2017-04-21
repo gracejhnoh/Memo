@@ -47,7 +47,7 @@
 ### Examples: 
 1. `users_login_path` vs `"/users/login"`
 2. `edit_user_path` vs `"/users/:id/edit`
-2. `new_experiment_path` vs `"/experiments/:id/new"`
+2. `new_experiment_path` vs `"/experiments/new"`
 
 ----------------
 
