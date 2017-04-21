@@ -28,9 +28,9 @@
 3. arguments can be more easily and readily passed in to methods (route helpers), unlike hard coded paths, which require string interpolation
     >    e.g. 
     >    
-    >        `users/<%= user.id %>?opt_in=true`
+    >        `users/<%= user.id %>?id=true`
     >
-    >        `user_path(user, opt_in: true)`
+    >        `user_path(user, id: true)`
 
 4. Automatically translate into HTML-friendly paths
     - characters like spaces, '&', '%', etc. are converted so that browsers can read them 
