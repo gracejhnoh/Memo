@@ -45,9 +45,9 @@
 ![alt text](https://github.com/gracenoh153/Memo/blob/master/Screen%20Shot%202017-04-20%20at%208.22.30%20PM.png "Rails Routes in Console")
 
 ### Examples: 
-1. `users_login_path` vs `"/users/login"`
-2. `edit_user_path` vs `"/users/:id/edit`
-2. `new_experiment_path` vs `"/experiments/new"`
+1. `users_login_path` vs `/users/login`
+2. `edit_user_path` vs `/users/:id/edit`
+2. `new_experiment_path` vs `/experiments/new`
 
 ----------------
 
