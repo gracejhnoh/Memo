@@ -33,8 +33,8 @@
                 ` #=> "<p>VRRRRooom Vroom!</p>\n" ` 
 
 * HAML can be used to _replace any ERB file_; __any__ file in the app/views folder can be switched, simply by changing the extension of the file.
-    e.g. app/views/account/login.html.erb 
-         app/views/account/login.html.haml
+    > e.g. app/views/account/login.html.erb 
+    >      app/views/account/login.html.haml
 
 * note that both ERB and HAML can be mixed throughout the website; it's not an "either/or" type of situation
 
@@ -60,6 +60,30 @@
 * when you use the ` <div> ` tag, you can choose to omit it entirely
     * HTML: ` <div class='greeting'>Hello, World!</div> ` 
     * HAML: ` .greeting Hello, World! `
+
+## KEY THING TO REMEMBER
+* HAML _is_ space-sensitive. EVERY space counts! One missing space (or one extra space) can make all the difference. 
+
+## One last example...
+``` 
+<html>
+  <head>
+    <title>HTML example</title>
+  </head>
+  <body>
+    HTML.... kinda boring??????? Maybe?
+  </body>
+</html>
+```
+
+```
+%html
+  %head
+    %title 
+      HAML rocks!
+  %body
+    HAML is really cool! Kinda.
+```
 
 ### References:
 * http://haml.info/
