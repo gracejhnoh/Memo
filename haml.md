@@ -27,8 +27,12 @@
     * as a Ruby module 
         * i.e. just as you would use Faker in a seed file! 
 ```
+             # install the gem
              gem install haml 
-             include haml 
+
+             # include the gem
+             include haml
+
              car = Haml::Car.new("%p VRRRRooom Vroom!") 
              car.render  
                  #=> "<p>VRRRRooom Vroom!</p>\n"
@@ -36,8 +40,8 @@
 
 * HAML can be used to _replace any ERB file_; __any__ file in the app/views folder can be switched, simply by changing the extension of the file.
     e.g. 
-        * app/views/account/login.html.erb 
-        * app/views/account/login.html.haml
+    * app/views/account/login.html.erb 
+    * app/views/account/login.html.haml
 
 * note that both ERB and HAML can be mixed throughout the website; it's not an "either/or" type of situation
 
