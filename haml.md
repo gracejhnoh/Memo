@@ -1,6 +1,6 @@
 # HAML
 
-=================================================================
+==============================================================================
 
 ## So... what is it?
 
@@ -10,9 +10,9 @@
 * __purpose__: make markup beautiful with DRY, aesthetically pleasing, well-indented, and clear code
 
 * 3 __major focuses__: 
-    1. cleanliness
-    2. readability
-    3. speed
+    * cleanliness
+    * readability
+    * speed
 
 ## Using HAML
 
@@ -20,11 +20,11 @@
     * ` gem install haml `
 
 * can be used __3 different ways__:
-    1. within the command line
+    * within the command line
         i.e. ` haml input.haml output.html `
-    2. as a plugin for Rails
+    * as a plugin for Rails
         i.e. ` gem "haml" `
-    3. as a Ruby module
+    * as a Ruby module
 
 * HAML can be used to _replace any ERB file_; __any__ file in the app/views folder can be switched, simply by changing the extension of the file.
     e.g. app/views/account/login.html.erb 
@@ -37,9 +37,9 @@
 * HAML: ` %strong= movie.title `
 
 * __NOTE__: 
-    1. tags are written by the '%' sign, followed by the tag name, followed by the '=' sign 
+    * tags are written by the '%' sign, followed by the tag name, followed by the '=' sign 
         * the '=' sign evaluates whatever follows into Ruby code
-    2. unlike ERB, HAML automatically detects newlines within the return value and formats the tag accordingly!
+    * unlike ERB, HAML automatically detects newlines within the return value and formats the tag accordingly!
 
 ## Adding Attributes
 
@@ -53,5 +53,7 @@
     * HTML: ` <div class='greeting'>Hello, World!</div> ` 
     * HAML: ` .greeting Hello, World! `
 
-
+### References:
+* http://haml.info/
+* http://haml.info/docs/yardoc/file.REFERENCE.html
 
