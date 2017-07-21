@@ -1,11 +1,10 @@
 # HAML
 
-==============================================================================
+==================================================================================
 
 ## So... what is it?
 
 * HAML - HTML abstraction markup language
-* haml.info (has tutorial & download link)
 
 * __purpose__: make markup beautiful with DRY, aesthetically pleasing, well-indented, and clear code
 
