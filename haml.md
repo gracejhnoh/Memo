@@ -39,7 +39,7 @@
 ```
 
 * HAML can be used to _replace any ERB file_; __any__ file in the app/views folder can be switched, simply by changing the extension of the file.
-    e.g. 
+* e.g. 
     * app/views/account/login.html.erb 
     * app/views/account/login.html.haml
 
