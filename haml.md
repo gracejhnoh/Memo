@@ -24,11 +24,18 @@
         i.e. ` haml input.haml output.html `
     * as a plugin for Rails
         i.e. ` gem "haml" `
-    * as a Ruby module
+    * as a Ruby module 
+        i.e. just as you would use Faker in a seed file! 
+            ` gem install haml `
+            ` include haml `
+            ` car = Haml::Car.new("%p VRRRRooom Vroom!") `
+            ` car.render ` 
+                ` #=> "<p>VRRRRooom Vroom!</p>\n" ` 
 
 * HAML can be used to _replace any ERB file_; __any__ file in the app/views folder can be switched, simply by changing the extension of the file.
     e.g. app/views/account/login.html.erb 
          app/views/account/login.html.haml
+
 * note that both ERB and HAML can be mixed throughout the website; it's not an "either/or" type of situation
 
 ## Converting into HAML ...
@@ -46,6 +53,7 @@
 * HTML: ` <strong class="heading" id="greeting-message">Welcome to our website!</strong> ` 
 * HAML: ` %strong{:class => "heading", :id => "greeting-message"} Welcome to our website! ` 
     * note the absence of the '=' sign; we want the text to be evaluated as a string, not as Ruby code
+
 * __CAN MAKE _EVEN_ SIMPLER__ by choosing to use the shorthand for ids and classes! 
     * ` %strong.heading#greeting-message Hello, World! ` 
 
