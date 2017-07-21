@@ -26,9 +26,6 @@
     * as a Ruby module 
         * i.e. just as you would use Faker in a seed file! 
 ```
-             # install the gem
-             gem install haml 
-
              # include the gem
              include haml
 
@@ -37,7 +34,8 @@
                  #=> "<p>VRRRRooom Vroom!</p>\n"
 ```
 
-* HAML can be used to _replace any ERB file_; __any__ file in the app/views folder can be switched, simply by changing the extension of the file.
+* HAML can be used to _replace any ERB file_
+* __any__ file in the app/views folder can be switched, simply by changing the extension of the file.
 * e.g. 
     * app/views/account/login.html.erb 
     * app/views/account/login.html.haml
@@ -50,15 +48,17 @@
 * HAML: ` %strong= movie.title `
 
 * __NOTE__: 
-    * tags are written by the '%' sign, followed by the tag name, followed by the '=' sign 
-        * the '=' sign evaluates whatever follows into Ruby code
+    * tags are written by:
+        * '%' sign, followed by the tag name, followed by the '=' sign 
+            * the '=' sign evaluates whatever follows into Ruby code
     * unlike ERB, HAML automatically detects newlines within the return value and formats the tag accordingly!
 
 ## Adding Attributes
 
 * HTML: ` <strong class="heading" id="greeting-message">Welcome to our website!</strong> ` 
 * HAML: ` %strong{:class => "heading", :id => "greeting-message"} Welcome to our website! ` 
-    * note the absence of the '=' sign; we want the text to be evaluated as a string, not as Ruby code
+    * note that the class and id are passed in as a standard Ruby hash!
+    * also note the absence of the '=' sign; we want the text to be evaluated as a string, not as Ruby code
 
 * __CAN MAKE _EVEN_ SIMPLER__ by choosing to use the shorthand for ids and classes! 
     * ` %strong.heading#greeting-message Hello, World! ` 
