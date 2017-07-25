@@ -5,6 +5,7 @@
 ## What is it?
 * Object Oriented CSS
 * a method of creating reusable CSS
+* the larger the project, the greater the benefits
 
 ## How do you write CSS when your program spans thousands of pages??
 * by applying OOCSS of course!
@@ -141,7 +142,18 @@ __DUN DUN DUN__ _or worse_ ...
 }
 ```
 
+## So let's recap on the benefits of OOCSS
+* faster websites
+    - smaller CSS file sizes, which result in faster download speeds
+    - yes, your HTML files may become more cluttered with tags... BUT it's a small price to pay for the stylesheet performance you will gain
+    - result in "performance freebies"
+        + meaning, every time you reuse something in your CSS... it's a freebie; you're adding no new lines of code!
+* maintainable stylesheets
+    - the idea is that you're cognizant of the CSS code you've written beforehand
+        + you're not adding random code to the bottom every time you want to style something.. you're always thinking about how to reuse code.
 
+* side note: you can still use IDs in your HTML code... but for the most part, be using them for JS/jQuery/AJAX
 
-
-
+### Resources
+* https://www.smashingmagazine.com/2011/12/an-introduction-to-object-oriented-css-oocss/
+* https://github.com/stubbornella/oocss/wiki
