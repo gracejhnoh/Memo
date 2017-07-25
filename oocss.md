@@ -10,9 +10,9 @@
 ## How do you write CSS when your program spans thousands of pages??
 * by applying OOCSS of course!
 * __3 major goals__:
-    - fast/efficient
-    - scalable
-    - maintainable
+    1. fast/efficient
+    2. scalable
+    3. maintainable
 * fast/efficient b/c pretty much zero repetition if executed correctly
 * scalable & maintainable b/c classes can be reused and mixed in with any objects, _without_ worrying about context!
 
