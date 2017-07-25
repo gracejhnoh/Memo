@@ -124,7 +124,7 @@ __THIS IS BAD. DO NOT DO THIS. REPEAT... DON'T DO THIS.__
 }
 ```
 
-__DUN DUN DUN__ _or worse_ ...
+_or worse_ ... __DUN DUN DUN__
 
 ``` 
 #sidebar h2, #footer h2 {
@@ -142,7 +142,7 @@ __DUN DUN DUN__ _or worse_ ...
 }
 ```
 
-## So let's recap on the benefits of OOCSS
+## Recap: Benefits of OOCSS
 * faster websites
     - smaller CSS file sizes, which result in faster download speeds
     - yes, your HTML files may become more cluttered with tags... BUT it's a small price to pay for the stylesheet performance you will gain
