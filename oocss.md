@@ -1,6 +1,6 @@
 # OOCSS
 
-===============================================================================================
+====================================================================================
 
 ## What is it?
 * Object Oriented CSS
@@ -8,7 +8,7 @@
 
 ## How do you write CSS when your program spans thousands of pages??
 * by applying OOCSS of course!
-* 3 major goals:
+* __3 major goals__:
     - fast/efficient
     - scalable
     - maintainable
@@ -94,7 +94,7 @@
 
 ## Separate Container from Content
 * do __NOT__ using styling that depends on the location of the tag
-    - in other words, DON'T style all <h2> tags that are a child of the <div class="treat-container">
+    - in other words, DON'T style all `<h2>` tags that are a child of the `<div class="treat-container">`
 
 ### Some examples... 
 
@@ -109,7 +109,7 @@ __THIS IS BAD. DO NOT DO THIS. REPEAT... DON'T DO THIS.__
     font-weight: bold;
 }
 ```
-* in this case, what happens when we want to apply the same styling (except font size) to the <h2> inside the <footer>? 
+* in this case, what happens when we want to apply the same styling (except font size) to the `<h2>` inside the `<footer>`? 
 ``` 
 #sidebar h2, #footer h2 {
     font-style: sans-serif;
