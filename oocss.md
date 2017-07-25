@@ -10,9 +10,9 @@
 ## How do you write CSS when your program spans thousands of pages??
 * by applying OOCSS of course!
 * __3 major goals__:
-    1. fast/efficient
-    2. scalable
-    3. maintainable
+    * fast/efficient
+    * scalable
+    * maintainable
 * fast/efficient b/c pretty much zero repetition if executed correctly
 * scalable & maintainable b/c classes can be reused and mixed in with any objects, _without_ worrying about context!
 
@@ -94,7 +94,7 @@
 * __note__ that instead of using IDs, we are now using classes, which can be reused; this code can later be easily fixed/modified to fit expanding code base
 
 ## Separate Container from Content
-* do __NOT__ using styling that depends on the location of the tag
+* do __NOT__ use styling that depends on the location of the tag
     - in other words, DON'T style all `<h2>` tags that are a child of the `<div class="treat-container">`
 
 ### Some examples... 
